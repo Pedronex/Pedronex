@@ -1,7 +1,7 @@
 <img src="https://imgur.com/YyYjZoH.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-  Olá meu nome é Pedro, sou desenvolvedor de <strong>FullStack</strong>. Sou recém formado em Análise e Desenvolvimento de Sistemas, recentemente estou estudando bastante desenvolvimento em JavaScript, usando NodeJS, ReactJS e React Native
+  Olá meu nome é Pedro, sou desenvolvedor <strong>FullStack</strong>. Sou recém formado em Análise e Desenvolvimento de Sistemas, recentemente estou estudando bastante desenvolvimento em JavaScript, usando NodeJS, ReactJS e React Native
 </p>
 
 <p align="left">
