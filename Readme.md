@@ -1,4 +1,4 @@
-<img src="https://imgur.com/yFFApFb.png" min-width="400px" max-width="400px" width="400px" align="right" alt="QR Code Portifólio">
+<img src="https://github-readme-stats.vercel.app/api?username=pedronex&show_icons=true&theme=react" min-width="500px" max-width="500px" width="500px" height="100%" align="right" alt="Estatísticas do meu perfil no github">
 
 <p align="left"> 
   Olá meu nome é Pedro, sou desenvolvedor <strong>FullStack</strong>. Sou recém formado em Análise e Desenvolvimento de Sistemas, recentemente estou estudando bastante desenvolvimento em JavaScript, usando NodeJS, ReactJS e React Native
