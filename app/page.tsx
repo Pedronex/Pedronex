@@ -1,112 +1,139 @@
+import { Technology } from "@/components/technology";
 import Image from "next/image";
+import { FaJava, FaNode, FaReact, FaJs, FaDocker } from "react-icons/fa6";
+import { SiMicrosoftsqlserver, SiNextdotjs, SiPowerbi } from "react-icons/si";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+    <main className="flex min-h-screen flex-col  bg-slate-50 dark:bg-black">
+      <div className="flex flex-row justify-between w-full dark:bg-[#121212] bg-[#ddd] p-2 items-center">
+        <h1 className="text-2xl font-bold max-md:hidden">Portfólio</h1>
+        <h1 className="text-2xl font-bold">Pedro Soares Silva (Pedronex)</h1>
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          alt="Foto de Perfil de Pedronex"
+          src={"https://avatars.githubusercontent.com/u/39323962"}
+          width={50}
+          height={50}
+          className="rounded-full border-4 border-violet-500 p-1"
         />
       </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+      <div className="flex flex-col w-[95vw] p-6 pb-10 gap-10 mx-auto">
+        <header className="flex flex-col gap-3">
+          <h1 className="text-xl lg:text-2xl lg:mb-2 mb-1">Sobre</h1>
+          <p className="text-justify">
+            Atuo como analista e desenvolvedor de sistemas desde 2020 (
+            {new Date().getFullYear() - 2020} anos), com experiencia em criação
+            de APIs, aplicativos, sites e containers. Sou formado em analise e
+            desenvolvimento de sistemas pela PUC-GO (Pontifícia Universidade
+            Católica de Goiás) Sou um profissional curioso e apaixonado por
+            novas tecnologias. Valorizo ambientes de trabalho multidisciplinares
+            e colaborativos. Estou sempre em busca de novos desafios e
+            oportunidades para crescer profissionalmente.
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+        </header>
+        <header>
+          <h1 className="text-xl lg:text-2xl lg:mb-2 mb-1">Tecnologias</h1>
+          <p>
+            Lista de Tecnologias que tenho experiencia no mercado de trabalho e
+            estou aperfeiçoando.
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        </header>
+        <div className="grid grid-cols-9 gap-2 max-sm:grid-cols-2">
+          <Technology
+            icon={<FaJs size={50} color="#f7e018" />}
+            name="Javascript"
+            yearOfExperience={2020}
+          />
+          <Technology
+            icon={<FaJava size={50} color="#187494" />}
+            name="Java"
+            yearOfExperience={2022}
+            detail={`Para criar APIs e backend usando Spring`}
+          />
+          <Technology
+            icon={<FaNode size={50} color="#75b758" />}
+            name="NodeJS"
+            yearOfExperience={2020}
+            detail={`Para criar APIs e backend`}
+          />
+          <Technology
+            icon={<FaReact size={50} color="#01daff" />}
+            name="ReactJS"
+            yearOfExperience={2020}
+          />
+          <Technology
+            icon={<SiNextdotjs size={50} />}
+            name="NextJS"
+            yearOfExperience={2020}
+          />
+          <Technology
+            icon={<FaReact size={50} color="#667dff" />}
+            name="React Native"
+            yearOfExperience={2021}
+            detail={`Principalmente utilizando o Expo CLI, utilizando 
+              o react native nativo também`}
+          />
+          <Technology
+            icon={<FaDocker size={50} color="#1d97ee" />}
+            name="Docker"
+            yearOfExperience={2022}
+          />
+          <Technology
+            icon={<SiMicrosoftsqlserver size={50} color="#87888a" />}
+            name="SQL Server"
+            yearOfExperience={2020}
+            detail="Criação de backups automatizados, tarefas automatizadas, relatórios, monitoramento, Business Intelligence"
+          />
+          <Technology
+            icon={<SiPowerbi size={50} color="#efc22a" />}
+            name="Power BI"
+            yearOfExperience={2022}
+          />
+        </div>
+        <header>
+          <h1 className="text-xl lg:text-2xl lg:mb-2 mb-1">Projetos</h1>
+        </header>
+        <div className="w-full h-fit flex flex-row flex-wrap justify-between">
+          <Image
+            alt="Imagem do Goiás Social"
+            src={require("@/assets/GS.png")}
+            width={1200}
+            height={630}
+            className="w-1/2 max-md:w-full"
+          />
+          <div className="w-2/5 max-md:w-full text-justify">
+            <h2 className="text-xl font-bold border-b text-center">
+              Goiás Social
+            </h2>
+            <p>
+              Esta aplicação foi desenvolvida para atender à demanda de coletar
+              e monitorar, através de formulários, os beneficiários que foram
+              consultados pelos analistas de campo. Esses analistas estão
+              participando do projeto do governo Goiás Social, com o intuito de
+              evitar o desperdício de papel e melhorar a rastreabilidade das
+              informações.
+            </p>
+            <p>
+              O aplicativo foi desenvolvido utilizando o ExpoCLI, fazendo
+              conexão com uma API desenvolvida pela empresa
+            </p>
+            <p>O aplicativo faz as seguintes funções:</p>
+            <li>Registrar as visitas;</li>
+            <li>Armazenar Fotos do local;</li>
+            <li>Cadastrar os familiares;</li>
+            <li>
+              consulta e atualiza a localização exata da familia em situação de
+              vulnerabilidade;
+            </li>
+            <li>Contém um formato de questionário dinâmico;</li>
+            <p>
+              O aplicativo armazena todos os retornos da API localmente
+              (inclusive os campos do questionário) para que o analista possa
+              transitar em locais sem internet permitindo com que eles consigam
+              sincronizar seus dados gerados posteriormente
+            </p>
+          </div>
+        </div>
       </div>
     </main>
   );
