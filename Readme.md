@@ -1,28 +1,44 @@
-<img src="https://github-readme-stats.vercel.app/api?username=pedronex&show_icons=true&theme=react" min-width="500px" max-width="500px" width="500px" height="100%" align="right" alt="Estatísticas do meu perfil no github">
-
-<p align="left"> 
-  Olá meu nome é Pedro, sou desenvolvedor <strong>FullStack</strong>. Sou recém formado em Análise e Desenvolvimento de Sistemas, recentemente estou estudando bastante desenvolvimento em JavaScript, usando NodeJS, ReactJS e React Native
-</p>
+<h1 align="left">Olá, eu sou Pedro Soares Silva 👋</h1>
 
 <p align="left">
-  ✨ Habilidades: <strong>HTML, CSS, JavaScript, ReactJS, React Native, Typescript, NodeJS and Java.</strong>
+  Desenvolvedor <strong>Full Stack</strong> com foco em <strong>DevOps, infraestrutura e automação</strong>. Recém-formado em Análise e Desenvolvimento de Sistemas, atuo com aplicações web, APIs, containers e integração de ferramentas de IA.
 </p>
 
-<p align="left">
-  💼 Ferramentas: <strong>Intellij, VSCODE, Figma, Netlify, Heroku, Git and GitHub.</strong>
-</p>
+---
+
+### ✨ Tecnologias
+
+**Frontend & Mobile:** JavaScript, TypeScript, React.js, React Native (Expo), HTML, CSS
+
+**Backend:** Node.js, Bun, ElysiaJS, Go, SQL
+
+**Bancos de dados:** PostgreSQL, MongoDB, SQL Server, SQLite
+
+**DevOps & Infra:** Docker, Docker Swarm, Portainer, GitHub Actions, Git, Linux, WSL
+
+**IA & Automação:** LLMs locais, MCPs, automação de fluxos de desenvolvimento
+
+---
+
+### 💼 Ferramentas
+
+VS Code, IntelliJ, Docker, Portainer, GitHub, Figma, Linux, Windows
+
+---
+
+### 💡 Interesses
+
+DevOps e infraestrutura, IA local e agentes, automação de processos, bancos de dados, arquitetura de sistemas distribuídos, otimização de fluxos de trabalho
+
+---
+
+### 💌 Contatos
+
+Se quiser conversar sobre desenvolvimento, DevOps, IA ou oportunidades, fique à vontade:
 
 <p align="left">
-  💌 Se você deseja realizar bater papo, não hesite em me enviar uma mensagem:: ⤵️
-</p>
-
-<p align="left">
-  <a href="https://api.whatsapp.com/send?phone=5562982977804&text=Ola%20te%20achei%20no%20GitHub%20podemos%20conversar%3F" alt="Whatsapp">
-  <img src="https://img.shields.io/badge/-Whatsapp-4caf50?style=for-the-badge&logo=Whatsapp&logoColor=white&link=https://www.instagram.com/iuricoding/"/></a>
   
-  <a href="https://www.linkedin.com/in/pedronex" alt="Linkedin">
-  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedronex" /></a>
+  [![Gmail Badge](https://img.shields.io/badge/-pedrosoares.nex%40gmail.com-1e1e2e?style=flat-square&logo=Gmail&logoColor=cba6f7&link=mailto%3Apedrosoares.nex%40gmail.com)](mailto:pedrosoares.nex%40gmail.com)
+  [![Linkedin Badge](https://img.shields.io/badge/-Pedro%20Silva-1e1e2e?style=flat-square&logo=Linkedin&logoColor=cba6f7&label=Linkedin&labelColor=cba6f7&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2FPedronex%2F)](https://www.linkedin.com/in/Pedronex/) 
 
-  <a href="mailto:pedrosoares.nex@gmail.com?subject=Ola%20te%20vi%20no%20GitHub%20vamos%20conversar?/" alt="Gmail">
-  <img src="https://img.shields.io/badge/-Gmail-cd3c30?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:pedrosoares.nex@gmail.com?subject=Ola%20te%20vi%20no%20GitHub%20vamos%20conversar?/"/></a>
 </p>
